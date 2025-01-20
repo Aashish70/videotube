@@ -25,6 +25,7 @@ import tweetRoutes from "./routes/tweet.routes.js";
 import vidoeRoutes from "./routes/video.routes.js";
 import playlistRoutes from "./routes/playlist.routes.js";
 import likeRoutes from "./routes/like.routes.js";
+import commentRoutes from "./routes/comment.routes.js";
 
 
 //http://localhost:3000/api/v1/users
@@ -33,6 +34,7 @@ app.use('/api/v1/tweets', tweetRoutes);
 app.use('/api/v1/videos', vidoeRoutes);
 app.use('/api/v1/playlists', playlistRoutes);
 app.use('/api/v1/likes', likeRoutes);
+app.use('/api/v1/comments', commentRoutes);
 
 
 
