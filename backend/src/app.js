@@ -22,11 +22,13 @@ app.use(cookieParser()); //This is used to parse the cookies data
 
 import userRoutes from "./routes/user.routes.js";
 import tweetRoutes from "./routes/tweet.routes.js";
+import vidoeRoutes from "./routes/video.routes.js";
 
 
 //http://localhost:3000/api/v1/users
 app.use('/api/v1/users', userRoutes);
 app.use('/api/v1/tweets', tweetRoutes);
+app.use('/api/v1/videos', vidoeRoutes);
 
 
 
